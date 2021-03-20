@@ -171,7 +171,7 @@
           <li class="sub-menu">
             <a href="javascript:;" class="">
                           <i class="icon_table"></i>
-                          <span>Payment Tables</span>
+                          <span>Payment Schedule</span>
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
             <ul class="sub">
@@ -188,11 +188,9 @@
         <section class="wrapper">
           <div class="row">
             <div class="col-lg-12">
-              <h3 class="page-header"><i class="fa fa-file-text-o"></i> Form elements</h3>
+              <h3 class="page-header"><i class="fa fa-file-text-o"></i>Roof^ LandLord Dashboard</h3>
               <ol class="breadcrumb">
                 <li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
-                <li><i class="icon_document_alt"></i>Forms</li>
-                <li><i class="fa fa-file-text-o"></i>Form elements</li>
               </ol>
             </div>
           </div>
@@ -200,21 +198,47 @@
             <div class="col-lg-12">
               <section class="panel">
                 <header class="panel-heading">
-                  Form Elements
+                  Options
                 </header>
-  
                 <div class="panel-body">
-  
-                  <form class="form-horizontal " method="get">
-                    
-                    <div class="form-group">
-                      <label class="col-sm-2 control-label">Default</label>
-                      <div class="col-sm-10">
-                        <input type="text" class="form-control">
-                      </div>
-                    </div>
-                </form>
-            </div>
+                  <a class="btn btn-primary" id="myBtn" title="Bootstrap 3 themes generator">Create New Property</a>
+                <!--  Pop up new property form -->
+                <div id="myModal" class="modal">
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <form action="/new_property_form.html" class="form-container">
+                      <div class="table">
+                        <div class="col-lg-12">
+                          <section class="panel">
+                            <header class="panel-heading">
+                              Form validations
+                            </header>
+                            <div class="panel-body">
+                              <div class="form-group">
+                                <label class="col-sm-2 control-label">Rental Name</label>
+                                <div class="col-sm-10">
+                                  <input type="text" class="form-control round-input" id="rental_name">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="panel-body">
+                              <div class="form-group">
+                                <label class="col-sm-2 control-label">Deposit Amount</label>
+                                <div class="col-sm-10">
+                                  <input type="number" class="form-control round-input" id="deposit_amount">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="panel-body">
+                              <div class="form-group">
+                                <label class="col-sm-2 control-label">Tenant Reference</label>
+                                <div class="col-sm-10">
+                                  <input type="text" class="form-control round-input" id="tenant_reference">
+                                </div>
+                              </div>
+                            </div>
+                                      </section>
+                                    </div>
             <div class="text-right">
             </div>
           </section>
