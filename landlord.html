@@ -89,7 +89,7 @@
                 <div id="myModal" class="modal">
                   <!-- Modal content -->
                   <div class="modal-content panel">
-                    <form action="insert.php" method="POST" id="new_rental_input" class="form-container" >
+                    <form action="db.php insert.php" method="POST" id="new_rental_input" class="form-container" >
                             <header class="panel-heading">
                              Create A New Rental
                              <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
@@ -158,8 +158,13 @@
                                   <input type="text" class="form-control round-input" id="pay_by_date">
                                 </div>
                               </div>
+                            </div>
+                            <div class="panel-body">
+                              <div class="form-group">
                             <td><a class="btn btn-primary btn-lg" href="" title="" id="new_rental_input_btn" input type ="submit|reset">Submit</a></td>
-          </form></section>
+                          </div>
+                        </div>    
+                   </form></section>
           <section id="large_logo">
             <section class="wrapper">
               <div class="row">
