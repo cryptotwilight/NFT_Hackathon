@@ -91,7 +91,7 @@ body {
   
   /* Add styles to the form container */
   .form-container {
-    max-width: 300px;
+    max-width: 100%;
     padding: 10px;
     background-color: white;
   }
@@ -593,8 +593,9 @@ table tr th { color: #688a7e;}
 
 .modal-content{
 
-    border-radius:0px;
-
+    border-radius:5px;
+    height:95%;
+    width:75%;
     background:rgba(255,255,255,0.9);
 
 }
