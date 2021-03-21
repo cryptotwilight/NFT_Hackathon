@@ -84,7 +84,7 @@
                   Option
                 </header>
                 <div class="panel-body">
-                  <a class="btn btn-primary"  action="db.php" id="myBtn" title="">Create New Rental</a>
+                  <a class="btn btn-primary"  id="myBtn" title="">Create New Rental</a>
                 <!--  Pop up new property form -->
                 <div id="myModal" class="modal">
                   <!-- Modal content -->
@@ -96,7 +96,8 @@
                             </header>
                             <div class="panel-body">
                               <div class="form-group">
-                                <label class="col-sm-2 control-label">Rental Name</label>
+                                <input class="col-sm-2 control-label">Rental Name</label>
+                                <input type="submit" value = "post">
                                 <div class="col-sm-10">
                                   <input type="text" class="form-control round-input" id="rental_name">
                                 </div>
@@ -104,10 +105,12 @@
                             </div>
                             <div class="panel-body">
                               <div class="form-group">
-                                <label class="col-sm-2 control-label">Deposit Amount</label>
+                                <input class="col-sm-2 control-label">Deposit Amount</label>
+                                <input type="submit" value = "post">
                                 <div class="col-sm-10">
                                   <input type="number" class="form-control round-input" id="deposit_amount">
-                                <span class="help-block">&diams; Deposit must be made in DAI &diams;</span>
+                                  <input type="submit" value = "post">
+                                  <span class="help-block">&diams; Deposit must be made in DAI &diams;</span>
                                </div>
                             </div>
                             </div>
@@ -116,6 +119,7 @@
                                 <label class="col-sm-2 control-label">Tenant Reference</label>
                                 <div class="col-sm-10">
                                   <input type="text" class="form-control round-input" id="tenant_reference">
+                                  <input type="submit" value = "post">
                                 </div>
                               </div>
                             </div>

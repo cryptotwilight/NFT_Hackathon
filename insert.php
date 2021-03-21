@@ -1,5 +1,10 @@
 <?php
 include_once 'db.php';
+// Check connection
+if ($conn->connect_error) {
+   die("Connection failed: " . $conn->connect_error);
+ } 
+$sql =
 if(isset($_POST['submit']))
 {    
      $rental_name = $_POST['rental_name'];
@@ -18,6 +23,5 @@ if(isset($_POST['submit']))
      } else {
         echo "Error: " . $sql . ":-" . mysqli_error($conn);
      }
-     mysqli_close($conn);
-}
+     $conn->close();
 ?>
