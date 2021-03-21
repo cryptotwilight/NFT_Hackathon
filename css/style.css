@@ -1152,7 +1152,11 @@ ul.sidebar-menu li.active a i {
 
 }
 
+logo {
+    max-width: 25%;
+    max-height: 1%;
 
+}
 
 a.logo {
 
@@ -2244,7 +2248,7 @@ div[data-role="editor-toolbar"] {
 
   box-shadow: none;
 
-  margin:0 0 50% 25%;
+  margin:0 0 0% 25%;
 
 }
 
