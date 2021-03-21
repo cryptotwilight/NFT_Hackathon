@@ -7,6 +7,7 @@ console.log("MetaMask is installed");
 
 let contract; 
 let accountAddress;
+let contractAbiJson;
 
 // Kovan test network contract deployment address
 let contractAddress = "0xBfA6d18D43378BB11C96933f4E0871C27cD1536e";
