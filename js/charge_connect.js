@@ -11,7 +11,7 @@ let accountAddress;
 // Kovan test network contract deployment address
 let contractAddress = "0xBfA6d18D43378BB11C96933f4E0871C27cD1536e";
 
-function init() {
+async function init() {
     contractAbiJson = await JSON.parse(contractAbi.toString());
     console.log("Got contract ABI");
     contract = new web3.eth.Contract(contractAbi, contractAddress);
