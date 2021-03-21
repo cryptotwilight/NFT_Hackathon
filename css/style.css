@@ -1076,8 +1076,6 @@ ul.sidebar-menu li.active a i {
 
 #main-content {
 
-    margin-left: 180px;
-
 }
 
 
@@ -2224,6 +2222,10 @@ div[data-role="editor-toolbar"] {
 
   border:none;
 
+  content:center;
+
+  width: 50%;
+
   -webkit-border-radius: 0px;
 
   -moz-border-radius: 0px;
@@ -2236,13 +2238,14 @@ div[data-role="editor-toolbar"] {
 
   box-shadow: none;
 
-  margin-bottom: 30px;
+  margin:0 0 50% 25%;
 
 }
 
 .panel .panel-heading {
 
   line-height: 34px;
+
 
   padding: 0 15px;
 
