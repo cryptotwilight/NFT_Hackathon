@@ -84,12 +84,12 @@
                   Option
                 </header>
                 <div class="panel-body">
-                  <a class="btn btn-primary" id="myBtn" title="">Create New Rental</a>
+                  <a class="btn btn-primary"  action="db.php" id="myBtn" title="">Create New Rental</a>
                 <!--  Pop up new property form -->
                 <div id="myModal" class="modal">
                   <!-- Modal content -->
                   <div class="modal-content panel">
-                    <form id="new_rental_input" class="form-container" method="post" action="db.php">
+                    <form id="new_rental_input" class="form-container" method="post">
                             <header class="panel-heading">
                              Create A New Rental
                              <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
@@ -158,9 +158,8 @@
                                   <input type="text" class="form-control round-input" id="pay_by_date">
                                 </div>
                               </div>
-                            </form>
                             <td><a class="btn btn-primary btn-lg" action="insert.php" href="" title="" id="new_rental_input_btn" input type ="submit|reset">Submit</a></td>
-          </section>
+          </form></section>
           <section id="large_logo">
             <section class="wrapper">
               <div class="row">
