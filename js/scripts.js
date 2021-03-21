@@ -1,9 +1,3 @@
-if (access_hash == "1234") {
-    //  block of code to be executed if the condition is true
-    window.location = 'tenant_info.html';
-  } 
-
-
 function initializeJS() {
     // Get the modal
 var modal = document.getElementById("myModal");
